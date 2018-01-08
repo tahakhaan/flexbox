@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: darkcyan;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body .heading {
+  display: flex;
+  justify-content: space-around;
+}
+body .heading h1 {
+  border: 1px solid black;
+  margin: 0;
+  padding: 15px;
+  background-color: white;
+}
+body .mainbox {
+  margin-top: 100px;
+  background-color: cadetblue;
+  justify-content: space-around;
+  flex-flow: wrap;
+  display: flex;
+}
+body .mainbox .boxes {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 2px;
+}
+body footer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+body footer p {
+  padding: 50px;
+}

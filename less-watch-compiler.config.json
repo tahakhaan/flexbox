@@ -1,0 +1,8 @@
+{
+    "allowedExtention": [".less"],
+    "minified": false,
+    "sourceMap": false,
+    "mainfile": "style.less",
+    "watchFolder": "less",
+    "outputFolder": "css"
+}
